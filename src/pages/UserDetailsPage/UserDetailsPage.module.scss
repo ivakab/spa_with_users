@@ -1,0 +1,37 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.detailsName {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.detailsLink {
+  color: #007bff;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.errorContainer {
+  text-align: center;
+}
+
+.errorMessage {
+  font-size: 18px;
+  color: #d9534f;
+  margin-bottom: 20px;
+}

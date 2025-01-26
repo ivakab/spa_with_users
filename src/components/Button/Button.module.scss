@@ -1,0 +1,24 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 16px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+  background-color: #4e9af8;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: rgb(33, 133, 255);
+  }
+
+  &:disabled {
+    background-color: #b3d4fc;
+    color: #a0a0a0;
+    cursor: not-allowed;
+  }
+}

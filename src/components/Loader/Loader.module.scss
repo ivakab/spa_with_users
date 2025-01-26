@@ -1,0 +1,24 @@
+.loaderContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.loader {
+  font-size: 24px;
+  font-weight: bold;
+  animation: colorChange 1.5s ease-in-out infinite;
+}
+
+@keyframes colorChange {
+  0% {
+    color: #0056b3;
+  }
+  50% {
+    color: #007bff;
+  }
+  100% {
+    color: #0056b3;
+  }
+}
