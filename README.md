@@ -15,10 +15,12 @@ The project is deployed on Netlify and accessible via this link: https://cozy-po
 
 # How to Run the Project Locally
 
+```bash
 git clone https://github.com/ivakab/spa_with_users.git
 cd spa_with_users
 npm install
 npm run dev
+```
 
 Open the app in your browser:
 http://localhost:5173
